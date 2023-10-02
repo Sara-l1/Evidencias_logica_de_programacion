@@ -354,8 +354,8 @@ final int DIAS_SEMANA = 7;
 
 
 
-#Actividad 2: Instalación de Entornos de Desarrollo para Java y ejercicios de programación básica.
-## Instalación de Entornos de Desarrollo para Java
+# Actividad 2: Instalación de Entornos de Desarrollo para Java y ejercicios de programación básica.
+### Instalación de Entornos de Desarrollo para Java
 **Objetivo:**
 Familiarizarse con la instalación de los entornos de desarrollo necesarios para programar en Java.
 
