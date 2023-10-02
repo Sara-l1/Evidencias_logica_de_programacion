@@ -6,7 +6,7 @@
 
 <!-- Su documentación aquí -->
 
-#### Instalación de Java y configuración del entorno de desarrollo
+# Instalación de Java y configuración del entorno de desarrollo
 ## Java JDK
 Java JDK (Java Development Kit) es un conjunto de herramientas de desarrollo de software que proporciona todo lo necesario para desarrollar, depurar y ejecutar aplicaciones Java. Incluye un conjunto de bibliotecas de clases predefinidas, compiladores, herramientas de depuración y otras utilidades necesarias para el desarrollo de aplicaciones Java.
 
