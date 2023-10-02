@@ -7,11 +7,12 @@
 <!-- Su documentación aquí -->
 
 ## Actividad 1: Diagnóstico de aprendizajes previos (Trabajo grupal)
-Objetivo: Desarrollar habilidades de pensamiento lógico y resolución de problemas.
+# Objetivo: 
+Desarrollar habilidades de pensamiento lógico y resolución de problemas.
 
-Ejercicio 1: El juego de la adivinanza
+# Ejercicio 1:  El juego de la adivinanza
 
-Instrucciones:
+# Instrucciones:
 
 El docente piensa en un número entre 1 y 100 (puede ser cualquier número).
 Los estudiantes hacen preguntas de sí o no para tratar de adivinar el número que el docente ha pensado.
@@ -19,7 +20,7 @@ El docente solo puede responder con "sí" o "no" a cada pregunta.
 Los estudiantes deben usar la lógica para hacer preguntas que reduzcan el rango de posibilidades del número a adivinar.
 Ejercicio 2: "El juego de los interruptores"
 
-Instrucciones:
+# Instrucciones:
 
 En la habitación hay tres interruptores, cada uno con dos estados: encendido o apagado.
 Solo uno de los interruptores enciende una luz en la habitación adyacente; los otros dos no tienen ninguna función.
