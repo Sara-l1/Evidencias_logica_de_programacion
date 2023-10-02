@@ -30,7 +30,7 @@ Además, NetBeans cuenta con una comunidad activa de desarrolladores que contrib
 
 NetBeans
 
-### Estructura de un programa en Java
+## Estructura de un programa en Java
 Ejemplo de la estructura de un programa en Java con comentarios documentados para cada sección:
 
 package com.example.miproyecto;  // Declaración del paquete
@@ -76,7 +76,7 @@ String nombre = "Juan";: Se declara una variable nombre de tipo cadena y se le a
 
 System.out.println("Hola, " + nombre + ". Tienes " + edad + " años.");: Se utiliza System.out.println() para imprimir un mensaje de saludo en la consola. La cadena se forma concatenando las variables nombre y edad utilizando el operador de suma (+).
 
-### Declaración variables.
+## Declaración variables.
 En Java, la declaración y asignación de variables es una de las tareas más básicas y esenciales para escribir cualquier programa. En esencia, una variable es un espacio en la memoria del ordenador reservado para almacenar un valor específico. La declaración de una variable es simplemente la creación de un espacio en la memoria para almacenar el valor que se asignará a la variable más adelante.
 
 La sintaxis para declarar una variable en Java es la siguiente:
@@ -87,17 +87,17 @@ Donde tipoDato es el tipo de dato que se almacenará en la variable y nombreVari
 
 Por ejemplo, si quisiéramos declarar una variable de tipo entero llamada "edad", la sintaxis sería la siguiente:
 
-# int edad;
+ **int edad;**
 
 Una vez que se ha declarado una variable, se puede asignar un valor a la variable utilizando el operador de asignación "=".
 
 Por ejemplo, para asignar un valor de 25 a la variable "edad", se utiliza la siguiente sintaxis:
 
-# edad = 25;
+**edad = 25;**
 
 También es posible declarar y asignar valores a una variable en la misma línea de código. Por ejemplo, para declarar y asignar un valor de 3.14 a una variable de tipo "double" llamada "pi", se utilizaría la siguiente sintaxis:
 
-# double pi = 3.14;
+**double pi = 3.14;**
 
 Es importante tener en cuenta que los nombres de las variables deben seguir las reglas de identificación de Java y ser descriptivos del valor que se va a almacenar en ellas. Además, una vez que se ha declarado una variable, se puede utilizar en cualquier lugar del programa siempre y cuando se haya asignado un valor a ella. Si se intenta utilizar una variable que no ha sido declarada previamente, se generará un error de compilación.
 
@@ -123,23 +123,23 @@ En Java, hay convenciones y buenas prácticas para crear identificadores de vari
 - Es recomendable seguir un estilo consistente en todo el código, para que sea más fácil de leer y entender.
 
 ## Estilos de convención de codificación.
-# 1 CamelCase (lowerCamelCase o mixedCase)
+**1 CamelCase (lowerCamelCase o mixedCase)**
 En CamelCase, la primera letra de la primera palabra se escribe en minúscula y las primeras letras de las palabras subsiguientes se escriben en mayúscula.
 No se utilizan espacios ni guiones.
 Ejemplo: __miVariable, calcularSuma, nombreCompleto.__ 
 
-# 2 PascalCase (UpperCamelCase o StudlyCase)
+**PascalCase (UpperCamelCase o StudlyCase)**
 En PascalCase, la primera letra de cada palabra se escribe en mayúscula, incluida la primera palabra.
 No se utilizan espacios ni guiones.
 Ejemplo: __MiClase, CalcularPromedio, MetodoPrincipal.__
 
-# 3 Snake_case
+**3 Snake_case**
 En Snake_case, las palabras se escriben en minúscula y se separan mediante guiones bajos.
 Ejemplo: __mi_variable, calcular_suma, nombre_completo.__
 
 Este estilo es comúnmente utilizado en lenguajes como Python.
 
-# 4 Kebab-case
+**4 Kebab-case**
 En Kebab-case, las palabras se escriben en minúscula y se separan mediante guiones medios.
 Ejemplo: __mi-variable, calcular-suma, nombre-completo.__
 
@@ -183,6 +183,7 @@ Donde tipoDato es el tipo de datos que se almacenará en el array, nombreArray e
 int[] edades = new int[3];
 
 - **Objetos:** (POO) Los objetos son instancias de una clase y se utilizan para almacenar información más compleja. Una clase es un tipo de dato personalizado que define las propiedades y métodos de un objeto. Para declarar un objeto, primero se debe crear una instancia de la clase utilizando la palabra clave "new", seguida del nombre de la clase y sus argumentos (si los tiene). Por ejemplo, si se tiene una clase llamada "Persona" que tiene propiedades como nombre, edad y altura, se puede crear una instancia de esa clase de la siguiente manera:
+
 Persona persona1 = new Persona("Juan", 25, 1.75);
 
 Es importante tener en cuenta que los tipos de datos no primitivos son más complejos que los tipos de datos primitivos, y su uso puede requerir conocimientos avanzados de programación.
@@ -192,13 +193,11 @@ La conversión de tipos de datos en Java es un proceso mediante el cual se convi
 
 La conversión implícita se produce automáticamente cuando se asigna un valor de un tipo de dato a una variable de otro tipo de datos compatible. Por ejemplo, si se asigna un valor de tipo "int" a una variable de tipo "double", Java realiza la conversión automáticamente.
 
-int x = 5;
-double y = x; // Conversión implícita de int a double
+__int x = 5; double y = x; // Conversión implícita de int a double__
 
 La conversión explícita, también conocida como "casting", se utiliza cuando se desea convertir un valor de un tipo de dato a otro tipo de datos que no es compatible de forma implícita. Para hacer una conversión explícita, se debe utilizar una sintaxis especial que indica al compilador que se desea convertir el valor a otro tipo de datos.
 
-double x = 3.14;
-int y = (int) x; // Conversión explícita de double a int
+__double x = 3.14;int y = (int) x; // Conversión explícita de double a int__
 
 En este ejemplo, se utiliza la sintaxis "(int)" para indicar que se desea convertir el valor "x" de tipo "double" a un valor de tipo "int". Es importante tener en cuenta que la conversión explícita puede provocar la pérdida de información si se intenta convertir un valor a un tipo de datos con menos precisión.
 
@@ -355,45 +354,331 @@ final int DIAS_SEMANA = 7;
 
 
 
-
-
-### Actividad 2: Instalación de Entornos de Desarrollo para Java y ejercicios de programación básica.
+#Actividad 2: Instalación de Entornos de Desarrollo para Java y ejercicios de programación básica.
 ## Instalación de Entornos de Desarrollo para Java
-# Objetivo: 
+**Objetivo:**
 Familiarizarse con la instalación de los entornos de desarrollo necesarios para programar en Java.
 
 El proceso de instalación de los entornos de desarrollo para Java, NetBeans IDE e IntelliJ IDEA, se puede resumir en los siguientes pasos:
 
-Descargar NetBeans IDE desde el sitio web oficial de NetBeans.
-Ejecutar el archivo de instalación de NetBeans y seguir las instrucciones del asistente de instalación.
-Descargar IntelliJ IDEA desde el sitio web oficial de IntelliJ IDEA.
-Ejecutar el archivo de instalación de IntelliJ IDEA y seguir las instrucciones del asistente de instalación.
-Verificar la instalación abriendo cada IDE y creando un proyecto de Java.
-Explorar las características y funcionalidades de cada entorno de desarrollo.
+- Descargar NetBeans IDE desde el sitio web oficial de NetBeans.
+- Ejecutar el archivo de instalación de NetBeans y seguir las instrucciones del asistente de instalación.
+- Descargar IntelliJ IDEA desde el sitio web oficial de IntelliJ IDEA.
+- Ejecutar el archivo de instalación de IntelliJ IDEA y seguir las instrucciones del asistente de instalación.
+- Verificar la instalación abriendo cada IDE y creando un proyecto de Java.
+- Explorar las características y funcionalidades de cada entorno de desarrollo.
 
-# Prueba y ejecución de ejercicios de programación básica.
+**Prueba y ejecución de ejercicios de programación básica.**
 En esta actividad, pondremos en práctica los conceptos aprendidos de programación básica mediante la ejecución y prueba de diversos ejercicios. Utilizaremos el lenguaje de programación Java para implementar los programas y comprobaremos su funcionamiento ingresando diferentes valores de entrada.
 
-# 1. Programa para calcular la hipotenusa de un triángulo rectángulo:
+## DESARROLLO
 
+### **1. Programa para calcular la hipotenusa de un triángulo rectángulo:**
 
-**import java.util.Scanner;**
-public class HipotenusaTriangulo {
+```java
+package com.mycompany.hipotenusa;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author SaraLopera
+ */
+public class Hipotenusa {
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        System.out.println("Hello World!");
+        
+        try (Scanner scanner = new Scanner(System.in)){
 
         System.out.print("Ingrese el valor del primer cateto: ");
         double cateto1 = scanner.nextDouble();
 
-        System.out.print("Ingrese el valor del segundo cateto: ");
+        System.out.print("ingrese el alor del segundo cateto: ");
         double cateto2 = scanner.nextDouble();
 
         double hipotenusa = Math.sqrt(Math.pow(cateto1, 2) + Math.pow(cateto2, 2));
-        System.out.println("La hipotenusa del triángulo es: " + hipotenusa);
+        System.out.println("La hipotenusa del triangulo es: " + hipotenusa);
+        }
+    }
+}
+```
+
+### **2. Programa para determinar si un número es par o impar:**
+
+```java
+package com.mycompany.numeroparimpar;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author SaraLopera
+ */
+
+public class NumeroParImpar {
+
+    public static void main(String[] args) {
+       try (Scanner scanner = new Scanner(System.in)){
+           System.out.print("Ingrese el numero: ");
+           int numero = scanner.nextInt();
+           
+           if (numero % 2 == 0){
+               System.out.println("El numero es par.");
+              } else {
+           
+               System.out.println("El numero es impar.");
+         } 
+       
+        
+    }
+}
+}
+```
+### **3. Programa para calcular el tercer ángulo de un triángulo:**
+
+```java
+package com.mycompany.rangulodetriangulo;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author SaraLopera
+ */
+public class App {
+
+    public static void main(String[] args) {
+        try(Scanner scanner = new Scanner(System.in)){
+         System.out.print("Ingrese el valor del primer angulo: ");
+         int angulo1 = scanner.nextInt();
+        
+         System.out.print("Ingrese el valor del segundo angulo: ");
+         int angulo2 = scanner.nextInt();
+         
+         if (angulo1 > 0 && angulo1 < 180 && angulo2 > 0 && angulo2 < 180){
+             int TercerAngulo = 180 - (angulo1 + angulo2);
+             System.out.println("El valor del tercer angulo es: " + TercerAngulo);
+         } else {
+             System.out.println("Los valores ingresados no son angulos vlidos");
+         }}
+    }
+}
+```
+
+### **4. Programa para calcular el promedio de tres números:**
+
+```java
+package com.mycompany.promediotresnumeros;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author SaraLopera
+ */
+public class PromedioTresNumeros {
+
+    public static void main(String[] args) {
+    
+try (Scanner scanner = new Scanner(System.in)) {
+            System.out.print("Ingrese el primer número: ");
+            double numero1 = scanner.nextDouble();
+            
+            System.out.print("Ingrese el segundo número: ");
+            double numero2 = scanner.nextDouble();
+            
+            System.out.print("Ingrese el tercer número: ");
+            double numero3 = scanner.nextDouble();
+            
+            double promedio = (numero1 + numero2 + numero3) / 3;
+            System.out.println("El promedio de los tres números es: " + promedio);
+        }
+    }
+}
+```
+
+### **5. Programa para calcular la longitud de una cadena de texto:**
+
+```java
+package com.mycompany.longitudcadena;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author SaraLopera
+ */
+public class LongitudCadena {
+
+    public static void main(String[] args) {
+        try(Scanner scanner = new Scanner(System.in)){
+            System.out.print("Ingrese una cadena de texto: ");
+            String texto = scanner.nextLine();
+            
+            int longitud = texto.length();
+            System.out.println("La longitud de la cadena es: " + longitud);
+        }
+    }
+    }     
+```
+
+### **6. Programa para calcular el área de un triángulo:**
+
+```java
+package com.mycompany.areadetriangulo;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author SaraLopera
+ */
+public class AreadeTriangulo {
+
+    public static void main(String[] args) {
+        try(Scanner scnner =new Scanner(System.in)){
+         System.out.print("Ingrese la base del triangulo: ");
+         double base = scnner.nextDouble();
+         
+         System.out.print("Ingrese la altura del triangulo: ");
+         double altura = scnner.nextDouble();
+         
+         double area = (base * altura) / 2;
+         System.out.println("El area del triangulo es:" + area); 
+        }    
+    }
+}
+```
+
+### **Programa para calcular la raíz cuadrada de un número:**
+
+```java
+package com.mycompany.raizcuadradan;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author SaraLopera
+ */
+public class RaizCuadradaN {
+
+    public static void main(String[] args) {
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.print("Ingrese un número: ");
+            double numero = scanner.nextDouble();
+            
+            double raizCuadrada = Math.sqrt(numero);
+            System.out.println("La raíz cuadrada del número es: " + raizCuadrada);
+        }
+    }
+}
+```
+
+### **8. Programa para calcular el máximo común divisor (MCD) de dos números:**
+
+```java
+package com.mycompany.mcd;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author SaraLopera
+ */
+public class MCD {
+
+    public static void main(String[] args) {
+      try (Scanner scanner = new Scanner(System.in)) {
+            System.out.print("Ingrese el primer número: ");
+            int numero1 = scanner.nextInt();
+            
+            System.out.print("Ingrese el segundo número: ");
+            int numero2 = scanner.nextInt(); 
+            
+            int res = mcd(numero1, numero2);
+            
+            System.out.println("MCD:" + res);
+            
+        }
+      
+    }
+
+    private static int calcularMCD(int numero1, int numero2) {
+        
+        int a = Math.max(numero1, numero2);
+        int b = Math.min(numero1, numero2);
+        
+        int resultado = 0;
+        do (
+            resultado = b;
+        b = a % b;
+        a = resultado;
+       
+        )while(b!=0);
+        
+       return resultado;
+        
+    }
+}
+```
+
+### **9. Programa para imprimir una cadena de texto en orden inverso:**
+
+```java
+package com.mycompany.cadenatextoinversa;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author SaraLopera
+ */
+public class CadenaTextoInversa {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingrese una cadena de texto: ");
+        String texto = scanner.nextLine();
+
+        String textoInverso = "";
+        for (int i = texto.length() - 1; i >= 0; i--) {
+            textoInverso += texto.charAt(i);
+        }
+
+        System.out.println("La cadena en orden inverso es: " + textoInverso);
 
         scanner.close();
     }
 }
+```
 
+### ** 10. Programa para calcular el área de un rectángulo:**
 
+```java
+package com.mycompany.arearectangulo;
 
+import java.util.Scanner;
+
+/**
+ *
+ * @author SaraLopera
+ */
+public class AreaRectangulo {
+
+    public static void main(String[] args) {
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.print("Ingrese la base del rectángulo: ");
+            double base = scanner.nextDouble();
+            
+            System.out.print("Ingrese la altura del rectángulo: ");
+            double altura = scanner.nextDouble();
+            
+            double area = base * altura;
+            System.out.println("El área del rectángulo es: " + area);
+        }
+    }
+}
+```
