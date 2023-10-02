@@ -62,19 +62,19 @@ public class MiPrograma {  // Declaración de la clase
 
 En este ejemplo, se sigue la estructura básica de un programa en Java con comentarios documentados que explican cada sección:
 
-package com.example.miproyecto;: Se declara el paquete al que pertenece el programa. En este caso, el paquete es "com.example.miproyecto".
+- package com.example.miproyecto;: Se declara el paquete al que pertenece el programa. En este caso, el paquete es "com.example.miproyecto".
 
-import java.util.Scanner;: Se importa el paquete java.util y la clase Scanner para poder utilizarla en el programa. El Scanner se utiliza para leer la entrada del usuario.
+- import java.util.Scanner;: Se importa el paquete java.util y la clase Scanner para poder utilizarla en el programa. El Scanner se utiliza para leer la entrada del usuario.
 
-public class MiPrograma {: Se declara la clase principal del programa llamada MiPrograma. La palabra clave public indica que la clase es accesible desde cualquier otro lugar.
+ - public class MiPrograma {: Se declara la clase principal del programa llamada MiPrograma. La palabra clave public indica que la clase es accesible desde cualquier otro lugar.
 
-public static void main(String[] args) {: Se define el método principal main, que es el punto de entrada del programa. Recibe un array de cadenas args como argumento, que puede ser utilizado para pasar argumentos desde la línea de comandos.
+- public static void main(String[] args) {: Se define el método principal main, que es el punto de entrada del programa. Recibe un array de cadenas args como argumento, que puede ser utilizado para pasar argumentos desde la línea de comandos.
 
-int edad = 25;: Se declara una variable edad de tipo entero y se le asigna el valor 25.
+- int edad = 25;: Se declara una variable edad de tipo entero y se le asigna el valor 25.
 
-String nombre = "Juan";: Se declara una variable nombre de tipo cadena y se le asigna el valor "Juan".
+- String nombre = "Juan";: Se declara una variable nombre de tipo cadena y se le asigna el valor "Juan".
 
-System.out.println("Hola, " + nombre + ". Tienes " + edad + " años.");: Se utiliza System.out.println() para imprimir un mensaje de saludo en la consola. La cadena se forma concatenando las variables nombre y edad utilizando el operador de suma (+).
+- System.out.println("Hola, " + nombre + ". Tienes " + edad + " años.");: Se utiliza System.out.println() para imprimir un mensaje de saludo en la consola. La cadena se forma concatenando las variables nombre y edad utilizando el operador de suma (+).
 
 ## Declaración variables.
 En Java, la declaración y asignación de variables es una de las tareas más básicas y esenciales para escribir cualquier programa. En esencia, una variable es un espacio en la memoria del ordenador reservado para almacenar un valor específico. La declaración de una variable es simplemente la creación de un espacio en la memoria para almacenar el valor que se asignará a la variable más adelante.
@@ -126,22 +126,22 @@ En Java, hay convenciones y buenas prácticas para crear identificadores de vari
 **1 CamelCase (lowerCamelCase o mixedCase)**
 En CamelCase, la primera letra de la primera palabra se escribe en minúscula y las primeras letras de las palabras subsiguientes se escriben en mayúscula.
 No se utilizan espacios ni guiones.
-Ejemplo: __miVariable, calcularSuma, nombreCompleto.__ 
+__Ejemplo:__ miVariable, calcularSuma, nombreCompleto.
 
 **PascalCase (UpperCamelCase o StudlyCase)**
 En PascalCase, la primera letra de cada palabra se escribe en mayúscula, incluida la primera palabra.
 No se utilizan espacios ni guiones.
-Ejemplo: __MiClase, CalcularPromedio, MetodoPrincipal.__
+__Ejemplo:__ MiClase, CalcularPromedio, MetodoPrincipal.
 
 **3 Snake_case**
 En Snake_case, las palabras se escriben en minúscula y se separan mediante guiones bajos.
-Ejemplo: __mi_variable, calcular_suma, nombre_completo.__
+__Ejemplo:__ mi_variable, calcular_suma, nombre_completo.
 
 Este estilo es comúnmente utilizado en lenguajes como Python.
 
 **4 Kebab-case**
 En Kebab-case, las palabras se escriben en minúscula y se separan mediante guiones medios.
-Ejemplo: __mi-variable, calcular-suma, nombre-completo.__
+__Ejemplo:__ mi-variable, calcular-suma, nombre-completo.
 
 Este estilo es menos común en la convención de codificación, pero se utiliza en algunos lenguajes y sistemas.
 
@@ -193,11 +193,15 @@ La conversión de tipos de datos en Java es un proceso mediante el cual se convi
 
 La conversión implícita se produce automáticamente cuando se asigna un valor de un tipo de dato a una variable de otro tipo de datos compatible. Por ejemplo, si se asigna un valor de tipo "int" a una variable de tipo "double", Java realiza la conversión automáticamente.
 
-__int x = 5; double y = x; // Conversión implícita de int a double__
+```java
+int x = 5; double y = x; // Conversión implícita de int a double 
+```
 
 La conversión explícita, también conocida como "casting", se utiliza cuando se desea convertir un valor de un tipo de dato a otro tipo de datos que no es compatible de forma implícita. Para hacer una conversión explícita, se debe utilizar una sintaxis especial que indica al compilador que se desea convertir el valor a otro tipo de datos.
 
-__double x = 3.14;int y = (int) x; // Conversión explícita de double a int__
+```java
+double x = 3.14;int y = (int) x; // Conversión explícita de double a int
+```
 
 En este ejemplo, se utiliza la sintaxis "(int)" para indicar que se desea convertir el valor "x" de tipo "double" a un valor de tipo "int". Es importante tener en cuenta que la conversión explícita puede provocar la pérdida de información si se intenta convertir un valor a un tipo de datos con menos precisión.
 
@@ -207,29 +211,39 @@ Además de las conversiones implícitas y explícitas, Java también proporciona
 En Java, los métodos parseXxx() se utilizan para convertir una representación de cadena (String) en un valor de tipo primitivo o un objeto de clase envolvente. Aquí tienes algunos ejemplos de métodos parseXxx() para diferentes tipos de datos:
 
 - **parseInt()** - Convierte una cadena en un valor entero (int):
+```java
 String numberStr = "123";
 int number = Integer.parseInt(numberStr);
 System.out.println(number); // Salida: 123
+```
 
 - **parseDouble()** - Convierte una cadena en un valor de punto flotante (double):
+```java
 String decimalStr = "3.14";
 double decimal = Double.parseDouble(decimalStr);
 System.out.println(decimal); // Salida: 3.14
+```
 
 - **parseBoolean()** - Convierte una cadena en un valor booleano (boolean):
+```java
 String boolStr = "true";
 boolean boolValue = Boolean.parseBoolean(boolStr);
 System.out.println(boolValue); // Salida: true
+```
 
 - **parseLong()** - Convierte una cadena en un valor entero largo (long):
+```java
 String floatStr = "2.71828";
 float floatValue = Float.parseFloat(floatStr);
 System.out.println(floatValue); // Salida: 2.71828
+```
 
 - **parseFloat()** - Convierte una cadena en un valor de punto flotante de precisión simple (float):
+```java
 String longStr = "9876543210";
 long longValue = Long.parseLong(longStr);
 System.out.println(longValue); // Salida: 9876543210
+```
 
 ## Método valueOf()
 El método valueOf() en Java se utiliza para convertir un tipo de dato primitivo o una cadena en un objeto de clase envolvente (wrapper class). Aquí tienes un ejemplo de cómo se puede utilizar el método valueOf():
