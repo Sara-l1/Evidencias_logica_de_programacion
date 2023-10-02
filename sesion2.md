@@ -429,8 +429,6 @@ public class NumeroParImpar {
            
                System.out.println("El numero es impar.");
          } 
-       
-        
     }
 }
 }
@@ -600,9 +598,7 @@ public class MCD {
             int res = mcd(numero1, numero2);
             
             System.out.println("MCD:" + res);
-            
         }
-      
     }
 
     private static int calcularMCD(int numero1, int numero2) {
@@ -619,7 +615,6 @@ public class MCD {
         )while(b!=0);
         
        return resultado;
-        
     }
 }
 ```
