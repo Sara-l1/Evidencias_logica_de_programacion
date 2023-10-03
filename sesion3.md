@@ -332,18 +332,25 @@ public class OperadoresLogicos {
 
 # DESAROLLO
 - **Suma y multiplicación:**
+
 ```java
+
 package com.mycompany.sumaymultiplicacion;
 
+
 import java.util.Scanner;
+
 
 /**
  *
  * @author SaraLopera
  */
+
 public class SumayMultiplicacion {
 
+
     public static void main(String[] args) {
+        
         Scanner entradaDatos = new Scanner (System.in);
         
         System.out.println("Ingrese el primer numero: ");
