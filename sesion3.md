@@ -364,6 +364,7 @@ public class SumayMultiplicacion {
 
 ```
 - **Resta y división:**
+
 ```java
 package com.mycompany.restaydivision;
 
@@ -398,6 +399,7 @@ public class RestayDivision {
 ```
 
 - **Operaciones combinadas**
+
 ```java 
 package com.mycompany.operacionescombinadas;
 
@@ -434,6 +436,7 @@ public class OperacionesCombinadas {
 ```
 
 - **Operaciones con decimales**
+
 ```java
 package com.mycompany.operacionesdecimales;
 
@@ -466,6 +469,7 @@ public class OperacionesDecimales {
 }
 ```
 - **Incremento y decremento:**
+
 ```java
 package com.mycompany.incrementodescremento;
 
@@ -491,6 +495,7 @@ public class IncrementoDescremento {
 }
 ```
 - **Operador ternario:**
+
 ```java
 package com.mycompany.operadorternanrio;
 
