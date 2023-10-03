@@ -332,11 +332,10 @@ public class OperadoresLogicos {
 
 # DESAROLLO
 - **Suma y multiplicación:**
+
 ```java
 package com.mycompany.sumaymultiplicacion;
-
 import java.util.Scanner;
-
 /**
  *
  * @author SaraLopera
@@ -362,11 +361,10 @@ public class SumayMultiplicacion {
 ```
 
 - **Resta y división:**
-```java 
+
+```java
 package com.mycompany.restaydivision;
-
 import java.util.Scanner;
-
 /**
  *
  * @author SaraLopera
@@ -393,11 +391,10 @@ public class RestayDivision {
 ```
 
 - **Operaciones combinadas**
+
 ```java
 package com.mycompany.operacionescombinadas;
-
 import java.util.Scanner;
-
 /**
  *
  * @author SaraLopera
@@ -428,11 +425,10 @@ public class OperacionesCombinadas {
 ```
 
 - **Operaciones con decimales**
+
 ```java
 package com.mycompany.operacionesdecimales;
-
 import java.util.Scanner;
-
 /**
  *
  * @author SaraLopera
@@ -459,9 +455,9 @@ public class OperacionesDecimales {
 ```
 
 - **Incremento y decremento:**
+
 ```java 
 package com.mycompany.incrementodescremento;
-
 import java.util.Scanner;
 /**
  *
@@ -479,12 +475,12 @@ public class IncrementoDescremento {
     }
 }
 ```
+
 - **Operador de asignación compuesta:**
+
 ```java
 package com.mycompany.asignacioncompuesta;
-
 import java.util.Scanner;
-
 /**
  *
  * @author SaraLopera
@@ -498,17 +494,15 @@ public class AsignacionCompuesta {
         numero +=5; 
         
         System.out.println("El valor del numero es: " + numero);
-        
     }
 }
 ```
 
 - **Operadores Logicos:**
+
 ```java 
 package com.mycompany.operadoreslogicos;
-
 import java.util.Scanner;
-
 /**
  *
  * @author SaraLopera
@@ -531,11 +525,10 @@ public class OperadoresLogicos {
 ```
 
 - **Operador ternario:**
+
 ```java
 package com.mycompany.operadorternanrio;
-
 import java.util.Scanner;
-
 /**
  *
  * @author SaraLopera
