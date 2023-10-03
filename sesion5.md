@@ -509,6 +509,7 @@ public class DoWhile2 {
         }
 ```
 ## **for**
+
 1. Imprimir los números impares del 1 al 50.
 
 ```java
@@ -532,6 +533,7 @@ public class For1 {
 }
 ```
 ## **for**
+
 2. Imprimir los números primos del 1 al 100.
 
 ```java
