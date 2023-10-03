@@ -44,6 +44,7 @@ numeros[7] = 8;
 numeros[8] = 9;
 numeros[9] = 10
 ```
+
 Para obtener el valor de un elemento de un array, se puede utilizar la siguiente sintaxis:
 
 ```java
@@ -196,7 +197,7 @@ Las desventajas de utilizar ArrayList incluyen:
 # Actividad: Ejecicios Array - ArrayList
 ## 1. En parejas, probar, analizar y explicar el funcionamiento de los siguientes ejemplos de Array y ArrayList.
 
-** Ejemplo Array**
+**Ejemplo Array**
 
 ```java
 import java.util.Arrays;
