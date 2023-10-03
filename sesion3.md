@@ -364,11 +364,150 @@ public class SumayMultiplicacion {
 
 ```
 - **Resta y división:**
+```java
+package com.mycompany.restaydivision;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author SaraLopera
+ */
+public class RestayDivision {
+
+    public static void main(String[] args) {
+        Scanner entradaDatos = new Scanner(System.in);
+       
+        System.out.println("Ingresa su primer numero: ");
+        int num1 = entradaDatos.nextInt();
+        
+        System.out.println("Ingresa su segundo numero: ");
+        int num2 = entradaDatos.nextInt();
+        
+        int resta = (num1 - num2);
+        int division = (num1 / num2);
+        
+        
+        System.out.println("La resta es: " + resta);
+        
+        System.out.println("La division es: " + division);
+     
+        
+    }
+}
+```
 
 - **Operaciones combinadas**
+```java 
+package com.mycompany.operacionescombinadas;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author SaraLopera
+ */
+public class OperacionesCombinadas {
+
+    public static void main(String[] args) {
+        Scanner entradaDatos = new Scanner(System.in);
+
+        System.out.println("Ingrese el primer numero: ");
+        int num1 = entradaDatos.nextInt();
+
+        System.out.println("Ingrese el segundo numero: ");
+        int num2 = entradaDatos.nextInt();
+
+        System.out.println("Ingrese el tercer numero: ");
+        int num3 = entradaDatos.nextInt();
+        
+        int suma = (num1 + num2 + num3);
+        int combinada = (num1 * num2 / num3);
+        
+        System.out.println("La suma es: " + suma);
+        System.out.println("El resultado de la multiplicacion y division es: " + combinada);
+        
+        System.out.println("El resultado de la suma es " + " " + suma + " " + "Resultado operacion combinada es " + combinada);
+       
+    }
+}
+```
 
 - **Operaciones con decimales**
+```java
+package com.mycompany.operacionesdecimales;
 
+import java.util.Scanner;
+
+/**
+ *
+ * @author SaraLopera
+ */
+public class OperacionesDecimales {
+
+    public static void main(String[] args) {
+        Scanner entradaDatos = new Scanner(System.in);
+        double num1;
+        double num2;
+     
+        System.out.println("Ingresa tu primer numero decimal: ");
+        num1 = entradaDatos.nextDouble(); 
+        System.out.println("Ingresa tu segundo numero decimal: ");
+        num2 = entradaDatos.nextDouble();
+        
+        
+        System.out.println("La suma de estos numeros es: " + (num1 + num2));
+        System.out.println("La resta de estos numeros es: " + (num1 - num2));
+        System.out.println("La multiplicacion de estos numeros es: " + (num1 * num2));
+        System.out.println("La division de estos numeros es: " + ((double)num1 / (double)num2));
+        
+        
+    }
+}
+```
 - **Incremento y decremento:**
+```java
+package com.mycompany.incrementodescremento;
 
+import java.util.Scanner;
+
+/**
+ *
+ * @author SaraLopera
+ */
+public class IncrementoDescremento {
+
+    public static void main(String[] args) {
+        Scanner entradaDatos = new Scanner(System.in);
+
+        System.out.println("Ingrese el numero: ");
+        int num1 = entradaDatos.nextInt();
+
+        System.out.println("El incremento del numero es: " + ++num1);
+
+        System.out.println("El decremento del numero es: " + num1--);
+
+    }
+}
+```
 - **Operador ternario:**
+```java
+package com.mycompany.operadorternanrio;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author SaraLopera
+ */
+public class OperadorTernanrio {
+
+    public static void main(String[] args) {
+        Scanner entradaDatos = new Scanner (System.in);
+        
+        System.out.println("Ingresa un numero: ");
+        int numero = entradaDatos.nextInt();
+        System.out.println((numero >= 0) ? "El numero es positivo" + numero: numero + "El numero es negativo");
+    }
+}
+```
