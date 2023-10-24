@@ -139,7 +139,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Miguel Angel
+ * @author SaraLopera
  */
 public class Pruebas {
 
